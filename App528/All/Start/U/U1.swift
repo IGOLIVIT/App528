@@ -26,7 +26,7 @@ struct U1: View {
                 
                 Spacer()
                 
-                VStack(spacing: 8) {
+                VStack(alignment: .leading, spacing: 8) {
                     
                     Text("Increase your income")
                         .foregroundColor(.white)

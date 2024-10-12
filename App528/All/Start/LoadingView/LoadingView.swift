@@ -17,7 +17,7 @@ struct LoadingView: View {
             
             VStack {
                 
-                Image("logo")
+                Image("Llogo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(width: 160)

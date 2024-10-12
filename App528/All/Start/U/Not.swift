@@ -29,8 +29,8 @@ struct Not: View {
                 
                 Spacer()
                 
-                VStack(spacing: 8) {
-                    
+                VStack(alignment: .leading, spacing: 8) {
+
                     Text("Don’t miss anything")
                         .foregroundColor(.white)
                         .font(.system(size: 30, weight: .semibold))

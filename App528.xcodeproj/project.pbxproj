@@ -50,6 +50,9 @@
 		78A13F2D2C96EE5A00E7D8BC /* S36.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F2C2C96EE5A00E7D8BC /* S36.swift */; };
 		78A13F2F2C96EE6000E7D8BC /* S37.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F2E2C96EE6000E7D8BC /* S37.swift */; };
 		78A13F312C96EE6600E7D8BC /* S38.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A13F302C96EE6600E7D8BC /* S38.swift */; };
+		78BAAD382CB9C6780017319E /* Soun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAD372CB9C6780017319E /* Soun.swift */; };
+		78BAAD3A2CB9C67F0017319E /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAD392CB9C67F0017319E /* Wind.swift */; };
+		78BAAD3C2CB9C6870017319E /* Drim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BAAD3B2CB9C6870017319E /* Drim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +101,9 @@
 		78A13F2C2C96EE5A00E7D8BC /* S36.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S36.swift; sourceTree = "<group>"; };
 		78A13F2E2C96EE6000E7D8BC /* S37.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S37.swift; sourceTree = "<group>"; };
 		78A13F302C96EE6600E7D8BC /* S38.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S38.swift; sourceTree = "<group>"; };
+		78BAAD372CB9C6780017319E /* Soun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soun.swift; sourceTree = "<group>"; };
+		78BAAD392CB9C67F0017319E /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		78BAAD3B2CB9C6870017319E /* Drim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +190,9 @@
 				78A13EE92C9093D000E7D8BC /* CoreDataStack.swift */,
 				78A13EEB2C9093D700E7D8BC /* Array.swift */,
 				78A13EED2C9093DE00E7D8BC /* CoreModel.xcdatamodeld */,
+				78BAAD372CB9C6780017319E /* Soun.swift */,
+				78BAAD392CB9C67F0017319E /* Wind.swift */,
+				78BAAD3B2CB9C6870017319E /* Drim.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -418,6 +427,7 @@
 				78A13F132C96EE0100E7D8BC /* S1.swift in Sources */,
 				78A13EFD2C90B7EB00E7D8BC /* SettingsView.swift in Sources */,
 				78A13F1B2C96EE2200E7D8BC /* S22.swift in Sources */,
+				78BAAD3C2CB9C6870017319E /* Drim.swift in Sources */,
 				78A13EF92C90B7DB00E7D8BC /* CurrencyView.swift in Sources */,
 				78A13F292C96EE4D00E7D8BC /* S34.swift in Sources */,
 				78A13EE62C9093C000E7D8BC /* R3.swift in Sources */,
@@ -432,6 +442,7 @@
 				78A13EEA2C9093D000E7D8BC /* CoreDataStack.swift in Sources */,
 				78A13EC02C9092A800E7D8BC /* App528App.swift in Sources */,
 				78A13ED82C90939000E7D8BC /* LoadingView.swift in Sources */,
+				78BAAD3A2CB9C67F0017319E /* Wind.swift in Sources */,
 				78A13EEC2C9093D700E7D8BC /* Array.swift in Sources */,
 				78A13EEF2C9093DE00E7D8BC /* CoreModel.xcdatamodeld in Sources */,
 				78A13F152C96EE0600E7D8BC /* S2.swift in Sources */,
@@ -440,6 +451,7 @@
 				78A13F192C96EE1400E7D8BC /* S21.swift in Sources */,
 				78A13F2B2C96EE5400E7D8BC /* S35.swift in Sources */,
 				78A13F312C96EE6600E7D8BC /* S38.swift in Sources */,
+				78BAAD382CB9C6780017319E /* Soun.swift in Sources */,
 				78A13F212C96EE3500E7D8BC /* S25.swift in Sources */,
 				78A13F2D2C96EE5A00E7D8BC /* S36.swift in Sources */,
 				78A13EFB2C90B7E200E7D8BC /* CurrencyViewModel.swift in Sources */,
@@ -580,7 +592,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App528/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lunar flow";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pōcket 0ptiōŋ Your finances\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -596,7 +608,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App528;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -619,7 +631,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App528/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lunar flow";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pōcket 0ptiōŋ Your finances\n";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -635,7 +647,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App528;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;

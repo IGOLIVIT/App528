@@ -50,7 +50,7 @@ struct SettingsView: View {
                     
                     Button(action: {
                         
-                        guard let url = URL(string: "") else { return }
+                        guard let url = URL(string: "https://www.termsfeed.com/live/53927f16-b372-4791-aaff-1cb49a5d079e") else { return }
                         
                     }, label: {
                         
